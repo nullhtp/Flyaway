@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dart.flyaway.MeetingActivity">
+
+    <EditText
+        android:lines="1"
+        android:id="@+id/meeting_name_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="What is your name?"
+        android:gravity="center"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/meeting_greeting_text"
+        android:layout_above="@id/meeting_name_edit"
+        style="@style/InformationText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Good morning/eavning, let's get acquainted!"
+
+        />
+    <Button
+        android:id="@+id/meeting_save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/meeting_name_edit"/>
+
+</RelativeLayout>

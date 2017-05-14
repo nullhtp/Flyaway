@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flyaway</string>
+    <string name="error_internet_connection">Мы потеряли соединение с интернетами. =(</string>
+    <string name="error_no_any_fly">Мы усердно ищем, но ничего пока не находим. =( Если хочешь, можешь помочь нам.</string>
+    <string name="error_no_any_fly_button_text">Я помогу</string>
+    <string name="fly_parameter_about_city">О городе</string>
+    <string name="fly_parameter_calendar">Добавить в календарь</string>
+    <string name="fly_parameter_calendar_topic">Билет мечты в %s</string>
+    <string name="location_activity_button_text">Это мой город</string>
+    <string name="location_activity_edit_hint">Название города</string>
+    <string name="location_activity_message">%s, откуда ты?</string>
+    <string name="notification_message" formatted="false">Билет в одну сторону в %s %s всего за %s%s.</string>
+    <string name="notification_title">Псс, %s... У меня есть кое что для тебя.</string>
+    <string name="saved_name">Имя</string>
+    <string name="main_give_me_more">Найти еще</string>
+    <string name="main_i_m_in">Я в деле</string>
+</resources>

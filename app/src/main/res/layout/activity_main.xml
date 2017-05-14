@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.example.dart.flyaway.MainActivity">
+
+    <!--Image with text direction-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.androidnetworking.widget.ANImageView
+            android:id="@+id/main_thumb_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/black_gradient"
+            android:orientation="horizontal"
+            android:paddingBottom="12dp">
+
+            <TextView
+                android:id="@+id/main_thumb_departure_text"
+                style="@style/MainThumbCodeText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="KGD" />
+
+
+            <ImageView
+                android:id="@+id/main_thumb_separator_image"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:rotation="90"
+                android:src="@drawable/ic_flight_white_36dp" />
+
+            <TextView
+                android:id="@+id/main_thumb_destination_text"
+                style="@style/MainThumbCodeText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="SPB" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <!-- / Image with text direction-->
+
+    <!-- Link button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_shadow"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/main_link_more_text"
+            style="@style/MainTextButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/main_give_me_more"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:id="@+id/main_link_order_text"
+            style="@style/MainTextButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/main_i_m_in" />
+
+    </LinearLayout>
+    <!-- / Link button -->
+    <!-- / Time block -->
+
+    <ListView
+        android:id="@+id/list_fly_parameter"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:drawSelectorOnTop="true"
+        android:orientation="vertical">
+
+    </ListView>
+
+
+</LinearLayout>
+
+

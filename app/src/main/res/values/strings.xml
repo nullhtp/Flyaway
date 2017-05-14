@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Flyaway</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="saved_name">Name</string>
+    <string name="preference_file_key" translatable="false">com.example.flyaway.PREFERENCE_FILE_KEY</string>
+    <string name="location_activity_button_text">This is my city</string>
+    <string name="location_activity_edit_hint">City name</string>
+    <string name="location_activity_message">%s, where are you from?</string>
+    <string name="error_internet_connection">We lost internet connection. =(</string>
+    <string name="partner_url" translatable="false">http://whitelabeldemo.skyscanner.net/en-GB/flights/</string>
+    <string name="fly_parameter_about_city">About this city</string>
+    <string name="fly_parameter_calendar">Add to calendar</string>
+    <string name="fly_parameter_calendar_topic">Dream ticket to %s</string>
+    <string name="fly_parameter_date_format" translatable="false">dd.MM.yyyy hh:mm</string>
+    <string name="error_no_any_fly">We searching hardly, but still not found any trip. =(  If you want, you may help us!</string>
+    <string name="error_no_any_fly_button_text">I will help</string>
+    <string name="notification_title">Psss, %s... I have something for you</string>
+    <string name="notification_message" formatted="false">One way ticket in %s %s only for %s%s.</string>
+    <string name="main_give_me_more">Give me more</string>
+    <string name="main_i_m_in">I\'m in</string>
+    <string name="error_no_any_fly_button_update_text">Try again</string>
+</resources>
